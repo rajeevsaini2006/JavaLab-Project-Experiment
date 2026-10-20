@@ -1,0 +1,139 @@
+30-Sep-2026 11:39:22.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.25
+30-Sep-2026 11:39:22.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2026 12:46:04 UTC
+30-Sep-2026 11:39:22.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.25.0
+30-Sep-2026 11:39:22.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+30-Sep-2026 11:39:22.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2026 11:39:22.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2026 11:39:22.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\RAJEEV\Downloads\jdk-26_windows-x64_bin\jdk-26.0.2.1
+30-Sep-2026 11:39:22.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.2.1+1-7
+30-Sep-2026 11:39:22.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2026 11:39:22.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:39:22.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:39:22.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\conf\logging.properties
+30-Sep-2026 11:39:22.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2026 11:39:22.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2026 11:39:22.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Sep-2026 11:39:22.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+30-Sep-2026 11:39:22.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Sep-2026 11:39:22.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Sep-2026 11:39:22.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Sep-2026 11:39:22.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Sep-2026 11:39:22.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+30-Sep-2026 11:39:22.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:39:22.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:39:22.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\temp
+30-Sep-2026 11:39:22.524 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\RAJEEV\Downloads\jdk-26_windows-x64_bin\jdk-26.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\apache-maven-3.9.16-bin.zip\apache-maven-3.9.16\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\RAJEEV\AppData\Local\Microsoft\WindowsApps;C:\Users\RAJEEV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RAJEEV\AppData\Local\GitHubDesktop\bin;C:\Users\RAJEEV\AppData\Roaming\npm;C:\Users\RAJEEV\apache-maven\apache-maven-3.9.16\bin;.]
+30-Sep-2026 11:39:22.817 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2026 11:39:22.834 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1289)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:958)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:832)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:857)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:494)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:378)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:2188)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:2206)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:958)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:96)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1287)
+		... 11 more
+30-Sep-2026 11:39:22.836 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [518] milliseconds
+30-Sep-2026 11:39:22.877 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2026 11:39:22.878 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.25]
+30-Sep-2026 11:39:22.901 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\servlet-1.0.war]
+30-Sep-2026 11:39:23.239 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\servlet-1.0.war] has finished in [335] ms
+30-Sep-2026 11:39:23.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\docs]
+30-Sep-2026 11:39:23.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\docs] has finished in [65] ms
+30-Sep-2026 11:39:23.306 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\examples]
+30-Sep-2026 11:39:23.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\examples] has finished in [429] ms
+30-Sep-2026 11:39:23.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\host-manager]
+30-Sep-2026 11:39:23.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\host-manager] has finished in [46] ms
+30-Sep-2026 11:39:23.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\manager]
+30-Sep-2026 11:39:23.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\manager] has finished in [29] ms
+30-Sep-2026 11:39:23.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\mywebapp]
+30-Sep-2026 11:39:23.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\mywebapp] has finished in [28] ms
+30-Sep-2026 11:39:23.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\ROOT]
+30-Sep-2026 11:39:23.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\ROOT] has finished in [32] ms
+30-Sep-2026 11:39:23.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\Student_reg_form]
+30-Sep-2026 11:39:23.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\Student_reg_form] has finished in [24] ms
+30-Sep-2026 11:39:23.902 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1065] milliseconds
+30-Sep-2026 11:39:23.910 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:645)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:535)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:973)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:921)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:482)
+30-Sep-2026 11:39:23.912 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Sep-2026 11:39:23.912 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Sep-2026 11:39:23.942 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Sep-2026 11:39:23.943 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Sep-2026 11:40:51.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.25
+30-Sep-2026 11:40:51.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 12 2026 12:46:04 UTC
+30-Sep-2026 11:40:51.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.25.0
+30-Sep-2026 11:40:51.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+30-Sep-2026 11:40:51.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2026 11:40:51.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2026 11:40:51.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\RAJEEV\Downloads\jdk-26_windows-x64_bin\jdk-26.0.2.1
+30-Sep-2026 11:40:51.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.2.1+1-7
+30-Sep-2026 11:40:51.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2026 11:40:51.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:40:51.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:40:51.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\conf\logging.properties
+30-Sep-2026 11:40:51.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2026 11:40:51.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2026 11:40:51.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Sep-2026 11:40:51.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+30-Sep-2026 11:40:51.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Sep-2026 11:40:51.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Sep-2026 11:40:51.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Sep-2026 11:40:51.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Sep-2026 11:40:51.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+30-Sep-2026 11:40:51.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:40:51.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25
+30-Sep-2026 11:40:51.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\temp
+30-Sep-2026 11:40:51.804 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\RAJEEV\Downloads\jdk-26_windows-x64_bin\jdk-26.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\apache-maven-3.9.16-bin.zip\apache-maven-3.9.16\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\RAJEEV\AppData\Local\Microsoft\WindowsApps;C:\Users\RAJEEV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RAJEEV\AppData\Local\GitHubDesktop\bin;C:\Users\RAJEEV\AppData\Roaming\npm;C:\Users\RAJEEV\apache-maven\apache-maven-3.9.16\bin;.]
+30-Sep-2026 11:40:52.141 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Sep-2026 11:40:52.171 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [572] milliseconds
+30-Sep-2026 11:40:52.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2026 11:40:52.230 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.25]
+30-Sep-2026 11:40:52.252 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\servlet-1.0.war]
+30-Sep-2026 11:40:52.593 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\servlet-1.0.war] has finished in [339] ms
+30-Sep-2026 11:40:52.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\docs]
+30-Sep-2026 11:40:52.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\docs] has finished in [38] ms
+30-Sep-2026 11:40:52.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\examples]
+30-Sep-2026 11:40:53.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\examples] has finished in [481] ms
+30-Sep-2026 11:40:53.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\host-manager]
+30-Sep-2026 11:40:53.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\host-manager] has finished in [42] ms
+30-Sep-2026 11:40:53.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\manager]
+30-Sep-2026 11:40:53.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\manager] has finished in [34] ms
+30-Sep-2026 11:40:53.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\mywebapp]
+30-Sep-2026 11:40:53.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\mywebapp] has finished in [26] ms
+30-Sep-2026 11:40:53.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\ROOT]
+30-Sep-2026 11:40:53.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\ROOT] has finished in [26] ms
+30-Sep-2026 11:40:53.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\Student_reg_form]
+30-Sep-2026 11:40:53.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJEEV\Downloads\java_projects-main\apache-tomcat-11.0.25\webapps\Student_reg_form] has finished in [18] ms
+30-Sep-2026 11:40:53.264 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Sep-2026 11:40:53.290 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1115] milliseconds

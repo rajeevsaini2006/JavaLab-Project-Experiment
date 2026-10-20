@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:21:00:10 +0530] "GET /servlet/student.jsp HTTP/1.1" 200 471
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:21:00:10 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:29:10 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:30:25 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:34:24 +0530] "GET /shopsphere-1.0-SNAPSHOT.war HTTP/1.1" 404 779
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:34:37 +0530] "GET /shopsphere-1.0-SNAPSHOT/product HTTP/1.1" 404 787
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:07 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:10 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:10 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:11 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:11 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:11 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:11 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:11 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:11 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:12 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [13/Oct/2026:22:35:12 +0530] "GET /shopsphere-1.0-SNAPSHOT/products HTTP/1.1" 404 788
